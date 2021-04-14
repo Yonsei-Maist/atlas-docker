@@ -1,0 +1,10 @@
+define([], function () {
+        var configLocal = {};
+
+        configLocal.api = {
+                name: 'MAIST',
+                url: 'http://maist.yonsei.ac.kr:8080/WebAPI/'
+        };
+
+        return configLocal;
+});
