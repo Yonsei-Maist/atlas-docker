@@ -1,16 +1,16 @@
 # atlas-docker
 Atlas & WebAPI docker file
 
-##Install
+## Install
 ```
 git clone https://github.com/Yonsei-Maist/atlas-docker
 ```
-##Run
+## Run
 ```
 docker build -t <docker-image-name> .
 docker run <docker-image-name> <options..>
 ```
-##Author
+## Author
 Chanwoo Gwon, Yonsei Univ. Researcher, since 2020.05.~
-##Maintainer
+## Maintainer
 Chanwoo Gwon, arknell@yonsei.ac.kr (2021.04)
