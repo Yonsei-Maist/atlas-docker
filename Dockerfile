@@ -7,7 +7,7 @@ RUN apt-get update
 
 # install application for project
 RUN apt -y install git
-RUN apt -y install nodejs
+RUN DEBIAN_FRONTEND="noninteractive" TZ="Asia/Seoul" apt -y install nodejs
 RUN apt -y install default-jre
 RUN apt -y install maven
 RUN apt -y install tomcat9 tomcat9-admin
