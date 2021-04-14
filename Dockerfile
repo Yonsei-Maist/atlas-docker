@@ -18,7 +18,7 @@ WORKDIR /usr/src/app
 RUN git clone https://github.com/OHDSI/Atlas.git
 RUN git clone https://github.com/OHDSI/WebAPI.git
 
-# copy config-item
+# copy config-document
 COPY ./atlas/WebAPI/ /usr/src/app/WebAPI/
 COPY ./atlas/Atlas/ /usr/src/app/Atlas/js/
 
